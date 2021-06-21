@@ -1,0 +1,30 @@
+.chat-input {
+    display: flex;
+    position: relative;
+
+    &__smile-btn {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+        width: 90px;
+
+        span.anticon.anticon {
+            margin-right: 10px;
+        }
+    }
+
+    input {
+        border-radius: 4px;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
